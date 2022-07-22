@@ -86,9 +86,9 @@ h1{
     transition: 0.4s;
 }
 
-.hamburger:hover span:nth-child(2){
+/* .hamburger:hover span:nth-child(2){
     transform: translateX(10px);
-}
+} */
 
 .hamburger.active span:nth-child(1){
     transform: translate(0px, -2px) rotate(45deg);
@@ -536,7 +536,7 @@ main{
 /*======================== Contact Section========================== */
 #contact{
     width: 100vw;
-    height: 40vh;
+    min-height: 40vh;
     background-color: var(--light);
 }
 .contact-container{
@@ -689,10 +689,10 @@ footer p{
     .logo{
         display: block;
     }
-    .hamburger:hover span:nth-child(2){
+    /* .hamburger:hover span:nth-child(2){
         transform: translateX(10px);
     }
-    
+     */
     .hamburger.active span:nth-child(1){
         transform: translate(0px, -2px) rotate(45deg);
     }
